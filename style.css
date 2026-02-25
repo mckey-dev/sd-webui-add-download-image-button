@@ -1,0 +1,25 @@
+/* ダウンロードボタンをGradioのツールボタン（💾📐等）と同じ見た目にする */
+#gallery_download_txt2img,
+#gallery_download_img2img {
+    max-width: 2.2em;
+    min-width: 2.2em !important;
+    height: 2.4em;
+    align-self: end;
+    line-height: 1em;
+    border-radius: 0.5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: var(--button-border-width, 1px) solid var(--button-secondary-border-color);
+    background: var(--button-secondary-background-fill);
+    color: var(--button-secondary-text-color);
+    transition: var(--button-transition);
+    box-shadow: var(--button-shadow);
+}
+
+#gallery_download_txt2img:hover,
+#gallery_download_img2img:hover {
+    background: var(--button-secondary-background-fill-hover);
+    color: var(--button-secondary-text-color-hover);
+}
