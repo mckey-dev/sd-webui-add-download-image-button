@@ -1,9 +1,10 @@
 /* ダウンロードボタンをGradioのツールボタン（💾📐等）と同じ見た目にする */
 #gallery_download_txt2img,
 #gallery_download_img2img {
-    max-width: 2.2em;
-    min-width: 2.2em !important;
-    height: 2.4em;
+    max-width: 2.6em;
+    min-width: 2.6em !important;
+    height: 2.8em;
+    font-size: 1.1em;
     align-self: end;
     line-height: 1em;
     border-radius: 0.5em;
